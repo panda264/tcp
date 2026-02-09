@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.11">
+  <Itf Name="I_TCPDriver" Id="{9309606c-c32e-4c2a-82a6-9df139c61b0f}">
+    <Declaration><![CDATA[INTERFACE I_TCPDriver
+]]></Declaration>
+    <Method Name="M_Cyclic" Id="{f6bf61f1-cd73-4de8-90e4-57f92069ee3b}">
+      <Declaration><![CDATA[METHOD M_Cyclic
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Method Name="M_Reset" Id="{ec3b075a-1ff5-4cfd-81f4-b66c5d364afc}">
+      <Declaration><![CDATA[METHOD M_Reset
+VAR_INPUT
+END_VAR
+]]></Declaration>
+    </Method>
+    <Property Name="nLastChar" Id="{4c399b76-0a18-48c4-97ae-d4d2a279d16d}">
+      <Declaration><![CDATA[PROPERTY nLastChar : BYTE]]></Declaration>
+      <Get Name="Get" Id="{c73df555-cc22-41a0-a120-8fbf13e04347}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+    </Property>
+    <Property Name="sRead" Id="{045092ef-833c-4b37-9a0f-1ed168e7dc64}">
+      <Declaration><![CDATA[PROPERTY sRead : T_MaxString;]]></Declaration>
+      <Get Name="Get" Id="{97353dd3-98a2-4ba3-ac4d-95f7bc0ca817}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{d1897922-a0ac-45a0-adcb-28f889955335}">
+        <Declaration><![CDATA[VAR
+END_VAR
+]]></Declaration>
+      </Set>
+    </Property>
+    <Property Name="sWrite" Id="{ae0ab7f8-ebb3-408a-adb9-258aad6467d5}">
+      <Declaration><![CDATA[PROPERTY sWrite : T_MaxString;]]></Declaration>
+      <Get Name="Get" Id="{d31dcaf1-8a78-4dac-8185-5f4095dade45}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Get>
+      <Set Name="Set" Id="{f360e1af-63da-4492-9fd0-5f18b47a1ec7}">
+        <Declaration><![CDATA[]]></Declaration>
+      </Set>
+    </Property>
+  </Itf>
+</TcPlcObject>
